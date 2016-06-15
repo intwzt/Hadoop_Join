@@ -1,0 +1,24 @@
+a.txt:
+id    name 
+001   iphone6
+002   xiaominote
+003   mate7
+004   nubia
+005   meilan
+
+b.txt:
+id    orderid  
+001     00101
+001     00110
+002     01001
+...
+
+查询过程：
+001   (iphone6-->a  00101-->b) --> (iphone6-->00101)
+
+
+sql语句
+select a.name,b.orderid from a,b where a.id=b.id
+
+iphone6  00101
+iphone6  00110

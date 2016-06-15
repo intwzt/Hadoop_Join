@@ -1,0 +1,5 @@
+001	iphone6
+002	xiaominote
+003	mate7
+004	nubia
+005	meilan
